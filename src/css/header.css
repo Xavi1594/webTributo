@@ -1,41 +1,40 @@
 header {
-    
-    height: 500px;
+    background-image: url(../imgs/fondoHeader.jpg);
 }
-#fondo-header img {
+
+#fondo-header {
+ 
     width: 100%;
-    margin-bottom: 0;
+    height: 300px;
+}
+
+
+#imagen-bola {
+    /* margin-top: 20px; */
+    width: 250px;
     height: 250px;
 }
 
-#logo img {
- width: 10%;
- 
-}
 header ul {
-    display:flex;
+    display: flex;
     gap: 15px;
-    padding:0;
+    padding: 0;
     list-style-type: none;
-    margin-left: 130px;
-    margin-top: 0px;
+    margin-left: 500px;
+    justify-content: space-between;
 }
+
 header li {
-    width:167px;
-    height:39px;
-    line-height:39px;
-    background-color:grey;
-    border-radius: 10px;
+    width: 167px;
+    height: 39px;
+    line-height: 39px;
+    background-color: rgb(216, 216, 216);
     text-align: center;
-    color:black;
+    color: black;
     font-weight: 700;
     display: block;
     transition: all 0.4s;
     justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid black;
 }
-
-header li a:hover {
-    color:#333333;
-    letter-spacing: 3px;
-}
-
